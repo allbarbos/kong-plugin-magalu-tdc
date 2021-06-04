@@ -1,0 +1,13 @@
+{
+    "Lua.diagnostics.globals": [
+        "ngx",
+        "kong",
+        "it",
+        "describe",
+        "before_each",
+        "spy",
+        "lazy_setup",
+        "lazy_teardown",
+        "after_each"
+    ]
+}

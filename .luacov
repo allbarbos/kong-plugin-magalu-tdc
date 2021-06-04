@@ -1,0 +1,6 @@
+return {
+  modules = {
+    ["magalu-tdc.*"] = "kong/plugins",
+  },
+  includeuntestedfiles = true,
+}

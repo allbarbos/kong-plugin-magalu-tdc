@@ -1,0 +1,18 @@
+_format_version: "1.1"
+
+services:
+  - name: tdc-srv
+    url: https://mockbin.org/bin/924cccf3-940c-4333-9755-16c586e59ccf
+    routes:
+      - name: get-my-backend-route
+        tags:
+          - tdc
+        methods:
+          - GET
+        paths:
+          - "\/v1\/my-backend($|/$)"
+    plugins:
+      - name: magalu-tdc
+        config:
+          add_magalu_header: false
+          show_kong_headers: false
