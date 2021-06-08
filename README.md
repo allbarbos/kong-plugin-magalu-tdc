@@ -1,5 +1,7 @@
 # magalu-tdc-kong-plugin
 
+[![Test](https://github.com/allbarbos/kong-plugin-magalu-tdc/actions/workflows/test.yml/badge.svg)](https://github.com/allbarbos/kong-plugin-magalu-tdc/actions/workflows/test.yml)
+
 ## Comandos
 
 Criar Rockspec
